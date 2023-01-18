@@ -20,7 +20,7 @@ const number1 = parseInt(prompt("Enter a number: "));
 const number2 = parseInt(prompt("Enter another number: "));
 
 
-const addition = window.alert("The addition of the numbers equals: " + number1.toString() + " + " + number2.toString() + " = " + add(number1, number2) + 
+ window.alert("The addition of the numbers equals: " + number1.toString() + " + " + number2.toString() + " = " + add(number1, number2) + 
 " The subtraction of the numbers equals: " + number1.toString() + " - " + number2.toString() + " = " + subtract(number1, number2) 
 + " The multiplication of the numbers equals: " + number1.toString() + " * " + number2.toString() + " = " + multiply(number1, number2) + 
 " The division of the numbers equals: " + number1.toString() + " / " + number2.toString() + " = " + divide(number1, number2)); 
